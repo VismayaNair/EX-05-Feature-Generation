@@ -115,7 +115,7 @@ df9
 # CODE :
 
 ENCODING_DATA.CSV:
-
+```
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
@@ -172,7 +172,7 @@ from sklearn.preprocessing import RobustScaler
 rscaler = RobustScaler()
 df8=pd.DataFrame(rscaler.fit_transform(df4),columns=['id', 'bin_1', 'bin_2', 'nom_0','ord_2'])
 df8
-
+```
 # OUTPUT :
 
 ![output](P1.png)
@@ -193,7 +193,7 @@ df8
 # CODE :
 
 TITANIC_DATASET.CSV :
-
+```
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
 df
@@ -250,7 +250,7 @@ rscaler = RobustScaler()
 df6=pd.DataFrame(rscaler.fit_transform(df2),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
 df6
 
-
+```
 # OUTPUT :
 
 ![output](L1.png)
