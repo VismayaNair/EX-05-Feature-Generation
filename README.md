@@ -22,7 +22,7 @@ Save the data to the file
 # CODE
 
 DATA.CSV
-
+```
 import pandas as pd
 df=pd.read_csv("data.csv")
 df
@@ -90,7 +90,7 @@ from sklearn.preprocessing import RobustScaler
 rscaler = RobustScaler()
 df9=pd.DataFrame(rscaler.fit_transform(df5),columns=['id', 'bin_1', 'bin_2', 'City', 'Ord_1','Ord_2','Target'])
 df9
-
+```
 
 # OUPUT
 
